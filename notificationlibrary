@@ -174,7 +174,7 @@ function notiflib:DiscordNotif(vanityorinv, dur)
     TextLabel_3.Position = UDim2.new(0.0399489738, 0, 0.140001222, 0)
     TextLabel_3.Size = UDim2.new(0, 252, 0, 35)
     TextLabel_3.Font = Enum.Font.Gotham
-    TextLabel_3.Text = "discord.gg/urvanityhere"
+    TextLabel_3.Text = "discord.gg/"..vanityorinv
     TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLabel_3.TextSize = 14.000
     TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
