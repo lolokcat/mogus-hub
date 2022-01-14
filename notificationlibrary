@@ -219,18 +219,18 @@ function notiflib:DiscordNotif(vanityorinv, dur)
         tween:Play()
     end
     
-    tween(Frame, {Position = UDim2.new(0.747916639, 0, 0.904066741, 0)}, 0.3)
-    tween(Frame_3, {Position = UDim2.new(0.747916639, 0, 0.937434793, 0)}, 0.3)
-    tween(Frame_4, {Position = UDim2.new(0.747916639, 0, 0.935349286, 0)}, 0.3)
+    tween(Frame, {Position = UDim2.new(0.747916639, 0, 0.879999995, 0)}, 0.3)
+    tween(Frame_3, {Position = UDim2.new(0.747916639, 0, 0.912999988, 0)}, 0.3)
+    tween(Frame_4, {Position = UDim2.new(0.747916639, 0, 0.911365986, 0)}, 0.3)
     
     for i = 1,dur do wait(1)
         dur = dur - 1
         TextLabel_2.Text = tostring(dur).."s"
     end
     
-    tween(Frame, {Position = UDim2.new(1, 0, 0.904066741, 0)}, 0.3)
-    tween(Frame_3, {Position = UDim2.new(1, 0, 0.937434793, 0)}, 0.3)
-    tween(Frame_4, {Position = UDim2.new(1, 0, 0.935349286, 0)}, 0.3)
+    tween(Frame, {Position = UDim2.new(1, 0, 0.879999995, 0)}, 0.3)
+    tween(Frame_3, {Position = UDim2.new(1, 0, 0.912999988, 0)}, 0.3)
+    tween(Frame_4, {Position = UDim2.new(1, 0, 0.911365986, 0)}, 0.3)
 end
 
 return notiflib
