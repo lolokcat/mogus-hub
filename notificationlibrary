@@ -332,7 +332,7 @@ function notiflib:NotifQ(question, duration, options)
     TextLabel_3.Position = UDim2.new(0.0208000019, 0, 0.140000969, 0)
     TextLabel_3.Size = UDim2.new(0, 452, 0, 42)
     TextLabel_3.Font = Enum.Font.Gotham
-    TextLabel_3.Text = "Do you like pineapple on your pizza?"
+    TextLabel_3.Text = question
     TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLabel_3.TextSize = 14.000
     TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
