@@ -91,9 +91,9 @@ function notiflib:Notification(text, dur)
         tween:Play()
     end
     
-    tween(Frame, {Position = UDim2.new(0.747916639, 0, 0.904066741, 0)}, 0.3)
-    tween(Frame_3, {Position = UDim2.new(0.747916639, 0, 0.937434793, 0)}, 0.3)
-    tween(Frame_4, {Position = UDim2.new(0.747916639, 0, 0.935349286, 0)}, 0.3)
+    tween(Frame, {Position = UDim2.new(0.855, 0, 0.904066741, 0)}, 0.3)
+    tween(Frame_3, {Position = UDim2.new(0.855, 0, 0.937434793, 0)}, 0.3)
+    tween(Frame_4, {Position = UDim2.new(0.855, 0, 0.935349286, 0)}, 0.3)
     
     for i = 1,dur do wait(1)
         dur = dur - 1
