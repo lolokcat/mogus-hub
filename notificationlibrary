@@ -186,7 +186,7 @@ function notiflib:DiscordNotif(vanityorinv, dur)
     TextButton.Position = UDim2.new(0, 0, 1, 0)
     TextButton.Size = UDim2.new(0, 271, 0, 27)
     TextButton.Font = Enum.Font.Gotham
-    TextButton.Text = "Copy Link To Clipboard"
+    TextButton.Text = "Join or Copy to Clipboard"
     TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextButton.TextSize = 14.000
 
