@@ -233,6 +233,7 @@ function notiflib:DiscordNotif(vanityorinv, dur)
     tween(Frame_4, {Position = UDim2.new(1, 0, 0.911365986, 0)}, 0.3)
     
     TextButton.MouseButton1Click:Connect(function()
+        print("[DEBUG]-Clicked")
         setclipboard("discord.gg/"..vanityorinv)
         TextButton.Text = "Copied to Clipboard!"
         wait(1)
