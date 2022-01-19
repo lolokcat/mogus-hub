@@ -23,6 +23,7 @@ function lib:LoadGUI()
 
 	statusframe.Name = "status frame"
 	statusframe.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	statusframe.ResetOnSpawn = false
 
 	Frame.Name = "Frame"
 	Frame.Parent = statusframe
