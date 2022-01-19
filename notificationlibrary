@@ -220,6 +220,7 @@ function notiflib:DiscordNotif(vanityorinv, dur)
     end
  
     TextButton.MouseButton1Click:Connect(function()
+        setclipboard("discord.gg/"..vanityorinv)
         syn.request({
            Url = "http://127.0.0.1:6463/rpc?v=1",
            Method = "POST",
@@ -235,7 +236,6 @@ function notiflib:DiscordNotif(vanityorinv, dur)
                nonce = game:GetService("HttpService"):GenerateGUID(false)
            }),
         })
-        setclipboard("discord.gg/"..vanityorinv)
     end)
     
     tween(Frame, {Position = UDim2.new(0.855, 0, 0.879999995, 0)}, 0.3)
