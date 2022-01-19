@@ -170,7 +170,7 @@ function lib:LoadGUI()
 		while true do wait()
 			Walkspeed.Text = "Walkspeed - "..game.Players.LocalPlayer.Character.Humanoid.Walkspeed 
 			Jumppower.Text = "Jumppower - "..game.Players.LocalPlayer.Character.Humanoid.JumpPower
-			Health.Text = "Health - "..game.Players.LocalPlayer.Charater.Humanoid.Health.." / "..game.Players.LocalPlayer.Character.Humanoid.MaxHealth.." "..(game.Players.LocalPlayer.Character.Humanoid.Health / game.Players.LocalPlayer.Character.Humanoid.MaxHealth) * 100
+			Health.Text = "Health - "..game.Players.LocalPlayer.Character.Humanoid.Health.." / "..game.Players.LocalPlayer.Character.Humanoid.MaxHealth.." "..(game.Players.LocalPlayer.Character.Humanoid.Health / game.Players.LocalPlayer.Character.Humanoid.MaxHealth) * 100
 		end
 	end))
 	
