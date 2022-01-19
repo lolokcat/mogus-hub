@@ -179,7 +179,9 @@ function lib:LoadGUI()
 	local Mouse = game.Players.LocalPlayer:GetMouse()
 	Mouse.KeyDown:Connect(function(key)
 		if key == bindkey then
-			statusframe.Visible = false
+			for i,v in pairs(statusframe) do
+				v.Visible = not v.Visible
+			end
 		end
 	end)
 	
