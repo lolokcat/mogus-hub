@@ -170,7 +170,7 @@ function lib:LoadGUI()
 	coroutine.resume(coroutine.create(function()
 	    local Label = Health
 	    while true do wait() 
-		Label.Text = "Health - "..game.Players.LocalPlayer.Character.Humanoid.Health.." / "..game.Players.LocalPlayer.Character.Humanoid.MaxHealth.." "..(game.Players.LocalPlayer.Character.Humanoid.Health / game.Players.LocalPlayer.Character.Humanoid.MaxHealth) * 100
+		Label.Text = "Health - "..game.Players.LocalPlayer.Character.Humanoid.Health.." / "..game.Players.LocalPlayer.Character.Humanoid.MaxHealth.." ".."("..(game.Players.LocalPlayer.Character.Humanoid.Health / game.Players.LocalPlayer.Character.Humanoid.MaxHealth) * 100.."%)"
 	    end
 	end))
 
